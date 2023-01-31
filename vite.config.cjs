@@ -1,8 +1,7 @@
-// const path = require('path');
 import path from 'path'
 
 module.exports = {
-  base: '/',
+  base: '/portfolio/',
   src: path.resolve(__dirname, 'src'),
   public: path.resolve(__dirname, 'public'),
   build: {
